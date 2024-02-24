@@ -5,15 +5,15 @@
 - Llama index
 - Transformers
 - Pypdfs
-- Llama cpu
+- LlamaCPP
 
   ## Steps
 - Upload the PDFs to a directory and read them.
-- Build a RAG model using the Llama Cpu. We are using the 7B parameter 5 bit Mistral llm. Link - 
+- Build a RAG model using the Llama Cpu. We are using the 7B parameter 5-bit Mistral llm. Link -(https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q5_K_S.gguf)
 - Set the temperature, context window, and number of  gpu layers you want to use.
-- Convert the Documents to Vectors using a pretrained model from Hugging face
+- Convert the Documents to Vectors using a pre-trained model from Hugging face
 Link-(https://huggingface.co/thenlper/gte-large)
-- Encapsulate the embedded model, and the llm and specify the chunk size
+- Encapsulate the embedded model, and the LLM and specify the chunk size
 - Build the Vector Index database containing the encapsulated model
 - Run a query engine to take the input prompts
 - Our model is ready.
