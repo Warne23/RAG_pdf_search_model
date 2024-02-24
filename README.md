@@ -9,7 +9,7 @@
 
 ## Steps
 - Upload the PDFs to a directory and read them.
-- Build a RAG model using the Llama Cpu. We are using the 7B parameter 5-bit Mistral llm. Link to Model [https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q5_K_S.gguf]
+- Build a RAG model using the Llama Cpu. We are using the 7B parameter 5-bit Mistral llm. [Link to Model](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q5_K_S.gguf)
 - Set the temperature, context window, and number of  gpu layers you want to use.
 - Convert the Documents to Vectors using a pre-trained model from Hugging face
 Link-(https://huggingface.co/thenlper/gte-large)
