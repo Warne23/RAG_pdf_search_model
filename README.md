@@ -12,7 +12,7 @@
 - Build a RAG model using the Llama Cpu. We are using the 7B parameter 5 bit Mistral llm. Link - 
 - Set the temperature, context window, and number of  gpu layers you want to use.
 - Convert the Documents to Vectors using a pretrained model from Hugging face
-Link-
+Link-(https://huggingface.co/thenlper/gte-large)
 - Encapsulate the embedded model, and the llm and specify the chunk size
 - Build the Vector Index database containing the encapsulated model
 - Run a query engine to take the input prompts
